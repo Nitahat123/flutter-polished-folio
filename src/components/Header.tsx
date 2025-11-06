@@ -6,7 +6,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 bg-background z-50 border-b border-border">
       <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
         <NavLink to="/" className="text-sm tracking-[0.2em] font-medium">
-          YOUR NAME
+          HARSHIL ITALIYA
         </NavLink>
         
         <nav className="flex items-center gap-8">
