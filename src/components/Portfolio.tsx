@@ -1,5 +1,5 @@
 import { Badge } from "./ui/badge";
-import app1 from "@/assets/app1.jpg";
+import app1 from "@/assets/shardhanjali_app.jpg";
 import app2 from "@/assets/app2.jpg";
 import app3 from "@/assets/app3.jpg";
 import app4 from "@/assets/app4.jpg";
