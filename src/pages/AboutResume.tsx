@@ -51,55 +51,60 @@ const AboutResume = () => {
     {
       name: "Shradhanjali RIP Card",
       description: "Using Rest API for theme selection and hive database using for data storage and Localization. Firebase analytics, crashalytics and other services use, notification and app open ad and reward ad show.",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.shradhanjali",
-      appStoreLink: "https://apps.apple.com/app/shradhanjali"
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.shradhanjali.card.maker",
+      appStoreLink: "https://apps.apple.com/in/app/shradhanjali-card-maker/id6456324479"
     },
     {
       name: "Surat Farmhouse Booking",
       description: "User can see all farm house in surat and take farm detail and photos and available farm booking. Rest API calling, data filter, all photos and detail display and location show using iframe.",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.suratfarmhouse"
-    },
-    {
-      name: "EGSPay - Games Load and Bills",
-      description: "EGSPay brings great deals and offers for all your gaming needs. Buy your digital game codes. More than 100 payment method handle using webview, phone, email and fingerprint authentication.",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.egspay",
-      appStoreLink: "https://apps.apple.com/app/egspay"
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.farmhouse.booking",
     },
     {
       name: "OpenCart Admin Mobile App",
       description: "OC M-App will provide the ability to manage order, products, categories, statistics and many features. Manage 10+ different version and data display, filter, login, user manage etc.",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.opencart"
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.hitinfotech.ocm_app",
+      appStoreLink: "https://apps.apple.com/in/app/opencart-admin-mobile-app/id6482107603"
     },
     {
       name: "My Parivar - Connect to Family",
       description: "Register parivar and make profile your parivar, events, member, committee, family tree, relation. Rest API calling, user and parivar wise request, data handling, relation management, etc.",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.myparivar"
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.my.parivar",
+      appStoreLink: "https://apps.apple.com/in/app/my-parivar-connect-to-family/id6504992839"
     },
     {
       name: "Plada",
       description: "Social networking app designed exclusively for parents, by parents. Rest API calling, user display in google map with profile image, realtime chat using socket and recurring subscriptions using google play store and app store.",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.plada",
-      appStoreLink: "https://apps.apple.com/app/plada"
-    },
-    {
-      name: "Nobless Tailoring",
-      description: "Multiple for measurement, custom validation etc.",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.nobless"
-    },
-    {
-      name: "NJMW",
-      description: "Website display using webview and thermal printer attach and make invoice and get print.",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.njmw"
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.app.plada",
+      appStoreLink: "https://apps.apple.com/in/app/plada/id6739690715"
     },
     {
       name: "Odeka",
       description: "Live broadcasting, with user join count real time chat tips, gift etc.",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.odeka"
+      playStoreLink: "https://play.google.com/store/apps/details?id=twa.odeka.appodeka"
     },
     {
       name: "Khata Billing",
       description: "Invoice generator and display all details, report etc. (currently working).",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.khatabilling"
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.khata.billing",
+      appStoreLink: "https://apps.apple.com/in/app/khata-billing-easy-invoicing/id6743933335"
+    },
+    {
+      name: "You and Me Dating",
+      description: "Invoice generator and display all details, report etc. (currently working).",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.youme.app.dating",
+      // appStoreLink: "https://apps.apple.com/in/app/khata-billing-easy-invoicing/id6743933335"
+    },
+    {
+      name: "Pikozo",
+      description: "Invoice generator and display all details, report etc. (currently working).",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.pikozo.customer.android",
+      appStoreLink: "https://apps.apple.com/in/app/pikozo/id6749498534"
+    },
+    {
+      name: "Pikozo Restaurant Partner",
+      description: "Invoice generator and display all details, report etc. (currently working).",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.pikozo.restaurant.android",
+      appStoreLink: "https://apps.apple.com/in/app/pikozo-restaurant-partner/id6749498767"
     }
   ];
 

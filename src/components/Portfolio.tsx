@@ -1,14 +1,14 @@
 import { Badge } from "./ui/badge";
-import app1 from "@/assets/shardhanjali_app.jpg";
-import app2 from "@/assets/app2.jpg";
-import app3 from "@/assets/app3.jpg";
-import app4 from "@/assets/app4.jpg";
-import app5 from "@/assets/app5.jpg";
-import app6 from "@/assets/app6.jpg";
-import app7 from "@/assets/app7.jpg";
-import app8 from "@/assets/app8.jpg";
-import app9 from "@/assets/app9.jpg";
-import app10 from "@/assets/app10.jpg";
+import app1 from "@/assets/shardanjali_app.jpg";
+import app2 from "@/assets/suratfarmhouse.png";
+import app3 from "@/assets/opencart.png";
+import app4 from "@/assets/myparivar.png";
+import app5 from "@/assets/pladaapp.png";
+import app6 from "@/assets/odekaapp.png";
+import app7 from "@/assets/khatabillingadmin.png";
+import app8 from "@/assets/youmedating.png";
+import app9 from "@/assets/pikazoapp.png";
+import app10 from "@/assets/pikazo resturant admin.png";
 
 interface App {
   id: number;
@@ -20,16 +20,16 @@ interface App {
 
 const Portfolio = () => {
   const apps: App[] = [
-    { id: 1, title: "E-Commerce Shopping App", category: "Retail", platforms: ["Android", "iOS"], image: app1 },
-    { id: 2, title: "Fitness Tracker Pro", category: "Health & Fitness", platforms: ["Android", "iOS"], image: app2 },
-    { id: 3, title: "Food Delivery Service", category: "Food & Drink", platforms: ["Android"], image: app3 },
-    { id: 4, title: "Social Media Dashboard", category: "Social", platforms: ["Android", "iOS"], image: app4 },
-    { id: 5, title: "Banking & Finance App", category: "Finance", platforms: ["Android"], image: app5 },
-    { id: 6, title: "Travel Booking Platform", category: "Travel", platforms: ["Android"], image: app6 },
-    { id: 7, title: "Education Learning Hub", category: "Education", platforms: ["Android", "iOS"], image: app7 },
-    { id: 8, title: "Real Estate Finder", category: "Real Estate", platforms: ["Android"], image: app8 },
-    { id: 9, title: "Music Streaming App", category: "Entertainment", platforms: ["Android"], image: app9 },
-    { id: 10, title: "Task Management Pro", category: "Productivity", platforms: ["Android"], image: app10 },
+    { id: 1, title: "Shradhanjali RIP Card", category: "Card Making App", platforms: ["Android", "iOS"], image: app1 },
+    { id: 2, title: "Surat Farmhouse Booking", category: "Social", platforms: ["Android", "iOS"], image: app2 },
+    { id: 3, title: "OpenCart Admin Mobile App", category: "Admin App", platforms: ["Android", "iOS"], image: app3 },
+    { id: 4, title: "My Parivar - Connect to Family", category: "Social", platforms: ["Android", "iOS"], image: app4 },
+    { id: 5, title: "Plada", category: "Social", platforms: ["Android", "iOS"], image: app5 },
+    { id: 6, title: "Odeka", category: "Social", platforms: ["Android"], image: app6 },
+    { id: 7, title: "Khata Billing", category: "Business", platforms: ["Android", "iOS"], image: app7 },
+    { id: 8, title: "You and Me Dating", category: "Social", platforms: ["Android", "iOS"], image: app8 },
+    { id: 9, title: "Pikozo", category: "Food Delivery", platforms: ["Android", "iOS"], image: app9 },
+    { id: 10, title: "Pikozo Restaurant Partner", category: "Food Delivery", platforms: ["Android", "iOS"], image: app10 },
   ];
 
   return (
@@ -48,8 +48,8 @@ const Portfolio = () => {
           {apps.map((app) => (
             <div key={app.id} className="group cursor-pointer">
               <div className="aspect-[9/16] bg-muted mb-4 overflow-hidden">
-                <img 
-                  src={app.image} 
+                <img
+                  src={app.image}
                   alt={app.title}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
